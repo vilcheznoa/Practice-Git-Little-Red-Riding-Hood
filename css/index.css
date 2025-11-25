@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Glitter';
+    src: url('../fonts/iloveglitter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+}
+
+h1 {
+    font-family: 'Glitter', 'Brush Script MT', 'Comic Sans MS', sans-serif;
+    font-size: 2.8rem;
+    color: rgb(113, 4, 4);
+    text-align: center;
+    padding-top: 3.5rem;
+    margin: 1.5rem auto 2rem;
+    max-width: 100%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+
+p.onceUponATime::first-letter {
+    font-family: 'Glitter', cursive, sans-serif;
+    color: rgb(113, 4, 4);
+    font-weight: 700;
+    font-size: 2em;
+    padding-right: 0.1rem;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    table-layout: fixed;
+}
+
+th,
+td {
+    border: 2px solid #555;
+    padding: 16px;
+    vertical-align: middle;
+    font-size: 1.125rem;
+}
+
+th {
+    font-weight: bold;
+}
+
+#girlWithWolfBehind {
+    width: clamp(190px, 30vw, 350px);
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    float: left;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#wolfAndGirl {
+    width: clamp(190px, 30vw, 350px);
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    float: right;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    margin-top: clamp(2rem, 6vw, 6rem);
+}
+
+@media (max-width: 600px) {
+    #girlWithWolfBehind,
+    #wolfAndGirl {
+        float: none;
+        margin: 1rem auto;
+        display: block;
+    }
+}
