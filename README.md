@@ -2,6 +2,10 @@
 
 Proyecto web que presenta el cuento clásico de **Caperucita Roja** con un diseño atractivo y responsive.
 
+## 🌐 Demo en Vivo
+
+Visita el proyecto en: [https://vilcheznoa.github.io/Practice-Git-Little-Red-Riding-Hood/](https://vilcheznoa.github.io/Practice-Git-Little-Red-Riding-Hood/)
+
 ## 📋 Descripción
 
 Este proyecto es una página web interactiva que narra el cuento tradicional de Caperucita Roja. Incluye texto narrativo, imágenes ilustrativas y una tabla de análisis de los valores del cuento. El diseño utiliza tipografías personalizadas. 
