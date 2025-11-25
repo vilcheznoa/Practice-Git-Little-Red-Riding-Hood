@@ -98,3 +98,9 @@ h3 {
         display: block;
     }
 }
+
+
+h4, h5 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
